@@ -1,0 +1,17 @@
+{
+  "name": "my-photo-archive",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/local.mjs",
+    "dev": "node server/local.mjs",
+    "deploy": "wrangler deploy"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "wrangler": "4.141.0"
+  }
+}
